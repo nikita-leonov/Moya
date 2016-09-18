@@ -8,8 +8,8 @@ end
 
 def targets
   return [
-    :ios,
     :osx,
+    :ios,
     # :tvos # Note: we're omiting this until Circle supports testing on tvOS simulators.
   ]
 end
