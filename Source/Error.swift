@@ -1,5 +1,3 @@
-import Foundation
-
 public enum Error: ErrorType {
     case ImageMapping(Response)
     case JSONMapping(Response)
@@ -20,5 +18,4 @@ public extension Moya.Error {
         case .Data(let response): return response
         case .Underlying: return nil
         }
-    }
-}
+    }}

@@ -41,7 +41,7 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   Moya:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
   Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
@@ -55,4 +55,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 66c1def8e36c4542e5d5ee0168a1c6fb4f1acd69
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2
