@@ -8,6 +8,14 @@
 
 import XCTest
 
+// See: http://stackoverflow.com/a/27182254/516359
+//
+// While I don't know why, The.framework is built linked to libswiftAppKit.
+// Frameworks do not embed the Swift libraries themselves, it's up to the host
+// app to include the necessary libraries. So here we are, including AppKit on
+// behalf of The.framework so that the tests can run.
+import AppKit
+
 class macOSOnlyTestFile: XCTestCase {
 
     override func setUp() {

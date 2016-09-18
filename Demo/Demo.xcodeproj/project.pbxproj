@@ -53,6 +53,7 @@
 		1DC29BB41D3694B20041B1DC /* TestPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC29BB01D36949C0041B1DC /* TestPlugin.swift */; };
 		36CED1FF03F2BD97EFDFCC07 /* Pods_MoyaTests_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A2ED7FAC502C9DEFF05137 /* Pods_MoyaTests_Mac.framework */; };
 		3A6F19A81D3B88530087A1D5 /* GitHubUserContentAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F19A71D3B88530087A1D5 /* GitHubUserContentAPI.swift */; };
+		5E8E7F2D1D8E107E003EE4D5 /* macOSOnlyTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E7F2C1D8E107E003EE4D5 /* macOSOnlyTestFile.swift */; };
 		5EC197E61A1BB16D00F4DFD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC197E51A1BB16D00F4DFD4 /* AppDelegate.swift */; };
 		5EC197E81A1BB16D00F4DFD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC197E71A1BB16D00F4DFD4 /* ViewController.swift */; };
 		5EC197ED1A1BB16D00F4DFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC197EB1A1BB16D00F4DFD4 /* Main.storyboard */; };
@@ -101,6 +102,7 @@
 		5E0646581BE79A4300E900DC /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = ../Readme.md; sourceTree = "<group>"; };
 		5E1B4EA11D146CDB007F9C4B /* Community.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Community.md; path = ../Community.md; sourceTree = "<group>"; };
 		5E2F7EE41BE53759009C5CE0 /* Changelog.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Changelog.md; path = ../Changelog.md; sourceTree = "<group>"; };
+		5E8E7F2C1D8E107E003EE4D5 /* macOSOnlyTestFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOSOnlyTestFile.swift; sourceTree = "<group>"; };
 		5EC197E01A1BB16D00F4DFD4 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC197E41A1BB16D00F4DFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC197E51A1BB16D00F4DFD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				1DC29BB01D36949C0041B1DC /* TestPlugin.swift */,
 				067D49751C0D3886005BBA79 /* testImage.png */,
 				067D49A31C0D388E005BBA79 /* Supporting Files */,
+				5E8E7F2C1D8E107E003EE4D5 /* macOSOnlyTestFile.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -652,6 +655,7 @@
 				067D49871C0D3886005BBA79 /* MoyaProviderIntegrationTests.swift in Sources */,
 				067D49811C0D3886005BBA79 /* ErrorTests.swift in Sources */,
 				067D498A1C0D3886005BBA79 /* MoyaProviderSpec.swift in Sources */,
+				5E8E7F2D1D8E107E003EE4D5 /* macOSOnlyTestFile.swift in Sources */,
 				067D499F1C0D3886005BBA79 /* TestHelpers.swift in Sources */,
 				067D49901C0D3886005BBA79 /* Observable+MoyaSpec.swift in Sources */,
 				067D497B1C0D3886005BBA79 /* EndpointSpec.swift in Sources */,
